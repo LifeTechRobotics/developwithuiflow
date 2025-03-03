@@ -1,6 +1,6 @@
 # Theme settings
 doks:
-    baseurl: /uiflow-dev
+    baseurl: /developwithuiflow
     color_theme: blue
     header:
         logo:
