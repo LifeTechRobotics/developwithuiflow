@@ -13,7 +13,7 @@ buttons:
     - icon: arrow-right
       content: Let's Go
       url: /enviroment
-      external_url: true
+      external_url: false
 
 # Author box
 # author:
