@@ -39,7 +39,7 @@ page_nav:
 ### M5Burnerのインストール
 <https://docs.m5stack.com/ja/uiflow/m5burner/intro> にアクセスし、M5Burner をダウンロードします。（Ubuntu OSの場合、*M5Burner_Linux* を選択します。）
 
-![1](../images/1.png)
+![1](../images/enviroment/1.png)
 
 ダウンロードした zip ファイルを展開します。
 
@@ -64,16 +64,20 @@ Atom Lite を USB で PC に接続します。
 <!-- M5Stack Basic の場合、*CORE* を選択して、*UIFlow 1.0* をダウンロードします。 -->
 
 Atom Liteの場合、*ATOM* を選択して、*UIFlow_Lite* をダウンロードします。
+![2](../images/enviroment/2.png)
 
-M5Burner 画面で Burn → Start をクリックしてファームウェアを書き込みます。
+M5Burner 画面で Burn → Next をクリックし、ファームウェアを書き込みます。
+![3](../images/enviroment/3.png)
 
 Wi-Fiの *SSID* と *Password* を入力し、Next をクリックします。
+![4](../images/enviroment/4.png)
 
 <div class="callout callout--info">
     <p><strong>ネットワークは 4G を選択してください。</strong></p>
 </div>
 
 Burn successfully, click here to return をクリックし書き込み完了します。
+![5](../images/enviroment/5.png)
 
 <!-- M5Stack Basic の画面に下記の状態になったら、Wi-Fi と Cloud へ接続OKです。
 
@@ -82,22 +86,24 @@ Burn successfully, click here to return をクリックし書き込み完了し�
     <p>Configure から Wi-Fi 設定を確認してみてください。</p>
 </div> -->
 
+Configure > Load から UIFlow Configuration 画面から API KEY を確認できます。
+![6](../images/enviroment/6.png)
+
 <div class="callout callout--info">
     <p><strong>API KEY</strong></p>
     <p>デバイスへ接続する際、API KEY が必要のため、メモしておきましょう。</p>
 </div>
 
-Atom Lite の場合、、、、、
-
-### UIFlowを使って簡単プログラミング
-<!-- M5Stack Basic を使います。 -->
-
+### サンプルプログラムの動かし方
 <https://flow.m5stack.com/> にアクセスし、UIFlow 1.0 を開きます。
-右上のアカウントより M5Stack Community アカウントでログインします。
+右上のアカウントアイコンをクリックし、 M5Stack Community アカウントでログインします。
+![11](../images/enviroment/11.png)
 
-Setting メニューから Api Key を入力し、デバイスへ接続します。
 
-ドラッグ＆ドロップでプログラミングします。←Atom Liteの場合、LED画面がないから、UIではなく、音とか
-Runをクリックして一回実行してみます。
+右上の Open アイコンをクリックし、サンプルプログラム(.m5fファイル)を選択します。
+![8](../images/enviroment/8.png)
 
-M5Stack Basic 側で実行画面が表示されます。←Atom Liteの場合、何かしらの反応
+右上のメニュー > Setting をクリックし、Api Key を入力し、Device を ATOM を選択し、デバイスへ接続します。
+![10](../images/enviroment/10.png)
+
+右下の Run ボタンをクリックすると M5Stack へ書き込まず一回のみ実行されます。
