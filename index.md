@@ -29,7 +29,7 @@ grid_navigation:
       cta: Read more
       url: /enviroment
     - title: 構成要素
-      excerpt: ロボットを作るに必要なものを見てみましょう。
+      excerpt: ロボットを作るために必要なものを見てみましょう。
       cta: Read more
       url: /component     
     - title: サーボモータ動作
@@ -45,7 +45,7 @@ grid_navigation:
       cta: Read more
       url: /remote    
     - title: 自律走行（お掃除ロボット動作）
-      excerpt: ロボットが障害物を避けるようにしてみましょう。
+      excerpt: ロボットが障害物を避けられるようにしてみましょう。
       cta: Read more
       url: /auto     
     - title: 今後について
