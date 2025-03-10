@@ -42,6 +42,7 @@ page_nav:
 ![1](../images/remote/1.png)
 
 スマートフォンで QR コードをスキャンして操作画面を開きます。
+
 <img src="../images/remote/2.png" alt="2" width="50%" height="50%">
 
 ### サンプルプログラムができること
