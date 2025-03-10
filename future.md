@@ -25,4 +25,3 @@ page_nav:
         url: /auto
 ---
 
-Write your markdown here ...
